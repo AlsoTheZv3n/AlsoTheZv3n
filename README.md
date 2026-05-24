@@ -26,14 +26,6 @@
 
 ## 🧑‍💻 About Me
 
-```yaml
-name: Sven
-role: Software Engineer
-location: Aargau, Switzerland
-focus: AI Automation · Backend Systems · Cloud Architecture
-certifications: [AZ-900, AI-900]
-```
-
 - 🔭 Building **AI-powered automation systems** and **full-stack applications**
 - 🧠 Exploring **LLM architectures**, **RAG pipelines**, and **multi-agent systems**
 - 🤝 Open to collaborate on **Python/FastAPI** and **AI/ML open-source projects**
@@ -56,6 +48,8 @@ certifications: [AZ-900, AI-900]
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white)
+![Mojolicious](https://img.shields.io/badge/Mojolicious-CC0000?style=for-the-badge&logoColor=white)
 
 ### AI & Machine Learning
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
@@ -68,7 +62,11 @@ certifications: [AZ-900, AI-900]
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MSSQL](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white)
 
 ### DevOps, Cloud & Infra
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -165,26 +163,24 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 
 <div align="center">
 
+<!-- Profile Trophies -->
 <a href="https://github.com/AlsoTheZv3n">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AlsoTheZv3n&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=1F6FEB&text_color=C9D1D9" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/AlsoTheZv3n">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlsoTheZv3n&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=1F6FEB&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
+  <img src="https://github-profile-trophy.vercel.app/?username=AlsoTheZv3n&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="GitHub Trophies" />
 </a>
 
-<br/>
+<br/><br/>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=AlsoTheZv3n&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=1f6feb&currStreakLabel=1f6feb)
+<!-- Streak Stats (working reliably) -->
+<img src="https://streak-stats.demolab.com?user=AlsoTheZv3n&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=1f6feb&currStreakLabel=1f6feb" alt="GitHub Streak" />
+
+<br/><br/>
+
+<!-- Activity Graph -->
+<a href="https://github.com/AlsoTheZv3n">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlsoTheZv3n&theme=github-compact&hide_border=true&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=1F6FEB&area=true&area_color=1F6FEB" alt="Activity Graph" width="98%" />
+</a>
 
 </div>
-
----
-
-## 🎯 Open Source Contributions
-
-- ✅ **Dify** — PR merged: TypedDict migration
-- 🔄 **Traefik** — PR in progress
-- 🔧 **N8nTools** — Agno framework integration
 
 ---
 
