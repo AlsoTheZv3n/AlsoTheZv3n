@@ -1,10 +1,19 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Hey%20👋%20I'm%20Sven&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Building%20intelligent%20systems%20at%20the%20intersection%20of%20AI%20%26%20automation&descSize=16&descAlignY=55&descAlign=50" width="100%" />
+<!-- Header -->
+<h1>
+  Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" /> I'm Sven
+</h1>
+
+<!-- Typing animation -->
+<a href="https://github.com/AlsoTheZv3n">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=1F6FEB&center=true&vCenter=true&width=720&lines=Software+Engineer+%7C+AI+%26+Automation;Building+intelligent+systems+end-to-end;LLMs+%E2%80%A2+RAG+%E2%80%A2+Multi-agent+frameworks;Open-source+contributor" alt="Typing SVG" />
+</a>
+
+<br/><br/>
 
 <!-- Social Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sven-weidenmann-260a16235/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlsoTheZv3n)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sweidenmann@gmail.com)
 
@@ -86,7 +95,7 @@ certifications: [AZ-900, AI-900]
 <tr>
 <td width="50%">
 
-### 🧬 GPT-2 LLM from Scratch
+### [🧬 GPT-2 LLM from Scratch](https://github.com/AlsoTheZv3n/modern-llm-v1)
 Custom transformer implementation in **C++/Python** with hand-written GEMM kernels, Flash Attention, and AdamW optimizer. Currently scaling to **1B parameters** on GCP A100 Spot VMs.
 
 `C++` `Python` `CUDA` `Deep Learning`
@@ -94,7 +103,7 @@ Custom transformer implementation in **C++/Python** with hand-written GEMM kerne
 </td>
 <td width="50%">
 
-### 🌐 Nexus Portal
+### [🌐 Nexus Portal](https://github.com/AlsoTheZv3n/nexo-fabric)
 Multi-tenant **RAG platform** (SaaS) with intelligent document retrieval. Built with Next.js, FastAPI, PostgreSQL, Supabase, deployed on Railway.
 
 `Next.js` `FastAPI` `pgvector` `Supabase`
@@ -104,7 +113,7 @@ Multi-tenant **RAG platform** (SaaS) with intelligent document retrieval. Built 
 <tr>
 <td width="50%">
 
-### 🛡️ SecureSync
+### [🛡️ SecureSync](https://github.com/AlsoTheZv3n/securesync)
 Open-source **EDR/XDR platform** for endpoint detection and response. Real-time threat monitoring and automated incident response.
 
 `Python` `Security` `Open Source`
@@ -112,7 +121,7 @@ Open-source **EDR/XDR platform** for endpoint detection and response. Real-time 
 </td>
 <td width="50%">
 
-### 🤖 N8nTools for Agno
+### [🤖 N8nTools for Agno](https://github.com/AlsoTheZv3n/agno)
 Community tools integrating **n8n workflow automation** into the Agno multi-agent framework. Bridging no-code automation with AI agents.
 
 `Python` `n8n` `Agno` `Open Source`
@@ -122,7 +131,7 @@ Community tools integrating **n8n workflow automation** into the Agno multi-agen
 <tr>
 <td width="50%">
 
-### 📞 AI Call Agent
+### [📞 AI Call Agent](https://github.com/AlsoTheZv3n/elevenlabs-n8n-halopsa)
 First-level IT support call agent powered by **VAPI/ElevenLabs** with HaloPSA integration. Automated voice-based ticket creation and routing.
 
 `n8n` `ElevenLabs` `HaloPSA` `AI`
@@ -130,7 +139,7 @@ First-level IT support call agent powered by **VAPI/ElevenLabs** with HaloPSA in
 </td>
 <td width="50%">
 
-### 📊 Commodities Trading Dashboard
+### [📊 Commodities Trading Dashboard](https://github.com/AlsoTheZv3n/next-oil-predict)
 Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** price prediction models.
 
 `Python` `FinBERT` `LSTM` `React`
@@ -147,7 +156,6 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 
 ![AZ-900](https://img.shields.io/badge/AZ--900-Azure_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AI-900](https://img.shields.io/badge/AI--900-Azure_AI_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AZ-104](https://img.shields.io/badge/AZ--104-Azure_Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white&labelColor=1a1a2e)
 
 </div>
 
@@ -157,22 +165,16 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AlsoTheZv3n&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=1f6feb&icon_color=1f6feb&text_color=c9d1d9&ring_color=1f6feb" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlsoTheZv3n&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&langs_count=8" />
+<a href="https://github.com/AlsoTheZv3n">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AlsoTheZv3n&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=1F6FEB&text_color=C9D1D9" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/AlsoTheZv3n">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlsoTheZv3n&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=1F6FEB&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
+</a>
 
 <br/>
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=AlsoTheZv3n&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=1f6feb&currStreakLabel=1f6feb)
-
-</div>
-
----
-
-## 🐍 Contribution Graph
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/AlsoTheZv3n/AlsoTheZv3n/output/github-snake-dark.svg)
 
 </div>
 
@@ -194,6 +196,9 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sven-weidenmann-260a16235/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sweidenmann@gmail.com)
+
+<sub>⭐ From [AlsoTheZv3n](https://github.com/AlsoTheZv3n)</sub>
 
 </div>
