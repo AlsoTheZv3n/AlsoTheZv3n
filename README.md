@@ -196,9 +196,6 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sven-weidenmann-260a16235/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sweidenmann@gmail.com)
-
 <sub>⭐ From [AlsoTheZv3n](https://github.com/AlsoTheZv3n)</sub>
 
 </div>
