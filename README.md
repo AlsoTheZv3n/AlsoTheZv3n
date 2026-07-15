@@ -12,11 +12,6 @@
 
 <br/><br/>
 
-<!-- Social Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sven-weidenmann-260a16235/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlsoTheZv3n)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sweidenmann@gmail.com)
-
 <!-- Profile Views -->
 ![Profile Views](https://komarev.com/ghpvc/?username=AlsoTheZv3n&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS)
 
@@ -150,19 +145,6 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 </tr>
 </table>
 
----
-
-## 🏅 Certifications
-
-<div align="center">
-
-![AZ-900](https://img.shields.io/badge/AZ--900-Azure_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AI-900](https://img.shields.io/badge/AI--900-Azure_AI_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-</div>
-
----
-
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -189,8 +171,6 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 ---
 
 <div align="center">
-
-### 💬 Let's Connect
 
 *I'm always interested in discussing AI systems, automation architecture, and open-source collaboration.*
 
