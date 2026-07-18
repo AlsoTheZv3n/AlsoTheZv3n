@@ -7,12 +7,26 @@
 
 <!-- Typing animation -->
 <a href="https://github.com/AlsoTheZv3n">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=1F6FEB&center=true&vCenter=true&width=720&lines=Software+Engineer+%7C+AI+%26+Automation;Building+intelligent+systems+end-to-end;LLMs+%E2%80%A2+RAG+%E2%80%A2+Multi-agent+frameworks;Open-source+contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=1F6FEB&center=true&vCenter=true&width=760&lines=AI+%26+ML+Engineer+%7C+Full-Stack;Transformers+from+scratch+in+C%2B%2B%2FCUDA;RAG+%26+agents+that+cite+their+sources;17+merged+PRs+in+upstream+open+source" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- Profile Views -->
+<!-- Contact -->
+<a href="mailto:sweidenmann@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+</a>
+<a href="https://www.kaggle.com/svenweidenmann">
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
+</a>
+<!-- TODO: paste your LinkedIn URL here and uncomment
+<a href="https://www.linkedin.com/in/YOUR-HANDLE">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+-->
+
+<br/><br/>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=AlsoTheZv3n&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS)
 
 </div>
@@ -21,60 +35,143 @@
 
 ## 🧑‍💻 About Me
 
-- 🔭 Building **AI-powered automation systems** and **full-stack applications**
-- 🧠 Exploring **LLM architectures**, **RAG pipelines**, and **multi-agent systems**
-- 🤝 Open to collaborate on **Python/FastAPI** and **AI/ML open-source projects**
-- ⚡ Fun fact: Built a **GPT-2 style LLM from scratch** in C++/Python with custom GEMM kernels & Flash Attention
+- 🔬 I build AI systems **down to the kernel** — a modern decoder-only transformer written from scratch in C++/CUDA, no PyTorch, no framework
+- 🧬 Currently building **evidence-grounded tooling for oncology research** on ChEMBL, ClinicalTrials.gov, Open Targets and PubMed
+- 🌍 **17 merged pull requests** in upstream open source — Dify, Webbrain, WorldWideView — with open PRs at Scanpy, Excalidraw and Infisical
+- 🏗️ Backend depth: **Java 21 / Spring Boot**, **FastAPI**, PostgreSQL + pgvector, Row-Level Security, multi-tenancy
+- 🇨🇭 Based in Aargau, Switzerland — open to **AI / ML Engineer** and **Full-Stack** roles
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [🧠 Modern LLM from Scratch](https://github.com/AlsoTheZv3n/modern-llm-v1)
+
+A decoder-only transformer in **raw C++/CUDA** — no PyTorch, no abstractions. RoPE, RMSNorm, SwiGLU, GQA, QK-Norm, BF16 mixed precision, gradient checkpointing, and a hand-written **Flash-Attention forward *and* backward** pass. Trained on FineWeb-Edu, monitored by a C# WPF live-loss GUI.
+
+`C++` `CUDA` `Transformers` `Systems ML`
+
+</td>
+<td width="50%" valign="top">
+
+### [🧬 H2H — Sourced Cancer Drug Evidence](https://github.com/AlsoTheZv3n/h2h-research-v2)
+
+One sourced brief per oncology drug — structure, binding, mechanism and clinical status — joined across **ChEMBL, ClinicalTrials.gov, Open Targets and PubMed**. Every fact carries its source and retrieval date; gaps are shown honestly instead of hallucinated.
+
+`FastAPI` `PostgreSQL` `Redis` `React 19` `TypeScript`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [📐 Predictive Coding from Scratch](https://github.com/AlsoTheZv3n/PCN-self-improvement-research)
+
+A biologically plausible backprop alternative with **purely local learning rules**, plus a fused **CUDA settling kernel** verified to ~1e-6. Fair PC-vs-BP study with multi-seed confidence intervals — thesis PDF and reproducible figures in the repo.
+
+`PyTorch` `CUDA` `Research` `Statistics`
+
+</td>
+<td width="50%" valign="top">
+
+### [🕸️ NEXO Ontology Engine](https://github.com/AlsoTheZv3n/ontology-next)
+
+Multi-tenant ontology platform: typed objects, entity resolution, lineage, semantic search over pgvector, LLM agent tools, CDC with DLQ, and a GDPR audit/erasure layer. **Flyway V1–V31**, Row-Level Security, AES-256-GCM, Testcontainers.
+
+`Java 21` `Spring Boot` `GraphQL` `pgvector` `RLS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🎙️ Local Voice IT Agent](https://github.com/AlsoTheZv3n/Voice-LLM-v1)
+
+A fully **offline** voice support agent — no cloud API. Microphone → faster-whisper → Qwen2.5-7B (4-bit, tool calling) → Piper TTS → browser, over a FastAPI WebSocket, with pgvector + HNSW retrieval behind it.
+
+`FastAPI` `Qwen2.5` `Whisper` `pgvector`
+
+</td>
+<td width="50%" valign="top">
+
+### [🛡️ SecureSync](https://github.com/AlsoTheZv3n/securesync)
+
+Multi-tenant **security-audit platform** for MSPs: orchestrates OpenVAS, OWASP ZAP, Nuclei and Wazuh, de-duplicates findings through DefectDojo, enriches with **EPSS** and **HIBP**, and ships white-labelled PDF reports on a per-tenant schedule.
+
+`Python` `Multi-tenant` `Security` `RBAC`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌍 Open Source Contributions
+
+Fixes and features shipped into projects I don't own:
+
+| Project | Contribution | |
+|---|---|---|
+| **[Dify](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3AAlsoTheZv3n+is%3Amerged)** <br/> ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=%E2%98%85&color=1f6feb) | Type-safety pass across the MCP, plugin, agent-runtime and moderation layers; `TypedDict` migration for credential verification | **11 merged** |
+| **[Webbrain](https://github.com/webbrain-one/webbrain/pulls?q=is%3Apr+author%3AAlsoTheZv3n)** <br/> ![](https://img.shields.io/github/stars/webbrain-one/webbrain?style=flat-square&label=%E2%98%85&color=1f6feb) | `/export-with-traces` command; site adapter for Galaxus | **2 merged** |
+| **[WorldWideView](https://github.com/silvertakana/worldwideview/pulls?q=is%3Apr+author%3AAlsoTheZv3n)** <br/> ![](https://img.shields.io/github/stars/silvertakana/worldwideview?style=flat-square&label=%E2%98%85&color=1f6feb) | Three Cesium hot-path performance wins; ESLint baseline + CI lint job; dependency audit; architecture docs | **4 merged** |
+| **[Scanpy](https://github.com/scverse/scanpy/pull/4218)** (scverse) <br/> ![](https://img.shields.io/github/stars/scverse/scanpy?style=flat-square&label=%E2%98%85&color=1f6feb) | `min_cells` parameter for `dotplot` | open |
+| **[Excalidraw](https://github.com/excalidraw/excalidraw/pull/11645)** <br/> ![](https://img.shields.io/github/stars/excalidraw/excalidraw?style=flat-square&label=%E2%98%85&color=1f6feb) | Preserve text-editor focus on window blur (Alt+Tab) | open |
+| **[Infisical](https://github.com/Infisical/infisical/pulls?q=is%3Apr+author%3AAlsoTheZv3n)** <br/> ![](https://img.shields.io/github/stars/Infisical/infisical?style=flat-square&label=%E2%98%85&color=1f6feb) | PKI certificate-renewal response, distinct member counts, dotted secret references, project search filter, UI fix | 5 open |
+| **[Agno](https://github.com/agno-agi/agno/pull/7339)** <br/> ![](https://img.shields.io/github/stars/agno-agi/agno?style=flat-square&label=%E2%98%85&color=1f6feb) | `N8nTools` toolkit — n8n workflow automation for multi-agent systems | open |
+
+---
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-### Languages & Frameworks
+### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+### Frameworks
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white)
-![Mojolicious](https://img.shields.io/badge/Mojolicious-CC0000?style=for-the-badge&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
 
 ### AI & Machine Learning
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
-### Databases & Data
+### Data
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MSSQL](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![MSSQL](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
-### DevOps, Cloud & Infra
+### DevOps & Cloud
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
 
 ### Automation & Integration
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
@@ -86,82 +183,26 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🎓 Certifications
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-### [🧬 GPT-2 LLM from Scratch](https://github.com/AlsoTheZv3n/modern-llm-v1)
-Custom transformer implementation in **C++/Python** with hand-written GEMM kernels, Flash Attention, and AdamW optimizer. Currently scaling to **1B parameters** on GCP A100 Spot VMs.
+![AI-103](https://img.shields.io/badge/AI--103-Azure_AI_Apps_%26_Agents_Developer_Associate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AI-900](https://img.shields.io/badge/AI--900-Azure_AI_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AZ-900](https://img.shields.io/badge/AZ--900-Azure_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-`C++` `Python` `CUDA` `Deep Learning`
+</div>
 
-</td>
-<td width="50%">
-
-### [🌐 Nexus Portal](https://github.com/AlsoTheZv3n/nexo-fabric)
-Multi-tenant **RAG platform** (SaaS) with intelligent document retrieval. Built with Next.js, FastAPI, PostgreSQL, Supabase, deployed on Railway.
-
-`Next.js` `FastAPI` `pgvector` `Supabase`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### [🛡️ SecureSync](https://github.com/AlsoTheZv3n/securesync)
-Open-source **EDR/XDR platform** for endpoint detection and response. Real-time threat monitoring and automated incident response.
-
-`Python` `Security` `Open Source`
-
-</td>
-<td width="50%">
-
-### [🤖 N8nTools for Agno](https://github.com/AlsoTheZv3n/agno)
-Community tools integrating **n8n workflow automation** into the Agno multi-agent framework. Bridging no-code automation with AI agents.
-
-`Python` `n8n` `Agno` `Open Source`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### [📞 AI Call Agent](https://github.com/AlsoTheZv3n/elevenlabs-n8n-halopsa)
-First-level IT support call agent powered by **VAPI/ElevenLabs** with HaloPSA integration. Automated voice-based ticket creation and routing.
-
-`n8n` `ElevenLabs` `HaloPSA` `AI`
-
-</td>
-<td width="50%">
-
-### [📊 Commodities Trading Dashboard](https://github.com/AlsoTheZv3n/next-oil-predict)
-Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** price prediction models.
-
-`Python` `FinBERT` `LSTM` `React`
-
-</td>
-</tr>
-</table>
+---
 
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Profile Trophies -->
-<a href="https://github.com/AlsoTheZv3n">
-  <img src="https://github-profile-trophy.vercel.app/?username=AlsoTheZv3n&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="GitHub Trophies" />
-</a>
-
-<br/><br/>
-
-<!-- Streak Stats (working reliably) -->
 <img src="https://streak-stats.demolab.com?user=AlsoTheZv3n&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=1f6feb&currStreakLabel=1f6feb" alt="GitHub Streak" />
 
 <br/><br/>
 
-<!-- Activity Graph -->
 <a href="https://github.com/AlsoTheZv3n">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlsoTheZv3n&theme=github-compact&hide_border=true&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=1F6FEB&area=true&area_color=1F6FEB" alt="Activity Graph" width="98%" />
 </a>
@@ -172,9 +213,13 @@ Real-time trading dashboard with **FinBERT** sentiment analysis and **LSTM** pri
 
 <div align="center">
 
-*I'm always interested in discussing AI systems, automation architecture, and open-source collaboration.*
+*Always up for a conversation about AI systems, low-level ML, or open-source collaboration.*
 
 <br/>
+
+<a href="mailto:sweidenmann@gmail.com">sweidenmann@gmail.com</a> · <a href="https://www.kaggle.com/svenweidenmann">Kaggle</a>
+
+<br/><br/>
 
 <sub>⭐ From [AlsoTheZv3n](https://github.com/AlsoTheZv3n)</sub>
 
