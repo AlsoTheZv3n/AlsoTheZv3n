@@ -7,23 +7,24 @@
 
 <!-- Typing animation -->
 <a href="https://github.com/AlsoTheZv3n">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=1F6FEB&center=true&vCenter=true&width=760&lines=AI+%26+ML+Engineer+%7C+Full-Stack;Transformers+from+scratch+in+C%2B%2B%2FCUDA;RAG+%26+agents+that+cite+their+sources;17+merged+PRs+in+upstream+open+source" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=1F6FEB&center=true&vCenter=true&width=760&lines=Software+Engineer+%7C+AI+%26+Full-Stack;Java+25+%E2%80%A2+Spring+Boot+%E2%80%A2+FastAPI+%E2%80%A2+React;Self-healing+automation+%26+AI+agents;17+merged+PRs+in+upstream+open+source;Microsoft+Certified%3A+AI-103+%E2%80%A2+AI-300+%E2%80%A2+DP-600" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 <!-- Contact -->
+<a href="https://www.linkedin.com/in/sven-weidenmann-260a16235/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
 <a href="mailto:sweidenmann@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+</a>
+<a href="https://huggingface.co/Zv3n">
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
 </a>
 <a href="https://www.kaggle.com/svenweidenmann">
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
 </a>
-<!-- TODO: paste your LinkedIn URL here and uncomment
-<a href="https://www.linkedin.com/in/YOUR-HANDLE">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
--->
 
 <br/><br/>
 
@@ -35,11 +36,12 @@
 
 ## 🧑‍💻 About Me
 
-- 🔬 I build AI systems **down to the kernel** — a modern decoder-only transformer written from scratch in C++/CUDA, no PyTorch, no framework
-- 🧬 Currently building **evidence-grounded tooling for oncology research** on ChEMBL, ClinicalTrials.gov, Open Targets and PubMed
+- 💼 **Freelance Software Engineer** — building automation and web platforms for Swiss SMEs, from a full operations platform for a taxi company (admin, driver and customer portals, live map, Swiss QR-bill, Stripe incl. TWINT) to AI-assisted workflows for a bakery & café
+- 🤖 Previously at **BeSync AG**, Zurich — first as Automation Engineer, then Frontend & AI Developer: AI agents with **self-healing components** that detect and mitigate issues on their own, a cross-department KPI dashboard, and a SaaS that unifies several systems into one customer view
+- 🏗️ Backend depth: **Java 25 / Spring Boot**, **FastAPI**, PostgreSQL + pgvector, Row-Level Security, multi-tenancy
+- 🧬 Side projects in **ML & health tech** — local LLM fine-tuning, MLOps, and evidence-grounded tooling for oncology research
 - 🌍 **17 merged pull requests** in upstream open source — Dify, Webbrain, WorldWideView — with open PRs at Scanpy, Excalidraw and Infisical
-- 🏗️ Backend depth: **Java 21 / Spring Boot**, **FastAPI**, PostgreSQL + pgvector, Row-Level Security, multi-tenancy
-- 🇨🇭 Based in Aargau, Switzerland — open to **AI / ML Engineer** and **Full-Stack** roles
+- 🇨🇭 Based in Aargau, Switzerland — open to **AI Engineering** and **Full-Stack** roles as well as freelance projects
 
 ---
 
@@ -49,65 +51,64 @@
 <tr>
 <td width="50%" valign="top">
 
-### [🧠 Modern LLM from Scratch](https://github.com/AlsoTheZv3n/modern-llm-v1)
+### [💳 Receivables & Payment Matching for Swiss SMEs](https://github.com/AlsoTheZv3n/Debitoren--und-Zahlungsabgleich-f-r-Schweizer-KMU)
 
-A decoder-only transformer in **raw C++/CUDA** — no PyTorch, no abstractions. RoPE, RMSNorm, SwiGLU, GQA, QK-Norm, BF16 mixed precision, gradient checkpointing, and a hand-written **Flash-Attention forward *and* backward** pass. Trained on FineWeb-Edu, monitored by a C# WPF live-loss GUI.
+Issues **Swiss QR-bills**, matches incoming payments from **camt.054** files automatically and runs a multi-level dunning process — multi-tenant from day one. Modular Spring Modulith backend, Keycloak auth, an API contract checked in CI, and Playwright E2E tests against the full Compose stack.
 
-`C++` `CUDA` `Transformers` `Systems ML`
-
-</td>
-<td width="50%" valign="top">
-
-### [🧬 H2H — Sourced Cancer Drug Evidence](https://github.com/AlsoTheZv3n/h2h-research-v2)
-
-One sourced brief per oncology drug — structure, binding, mechanism and clinical status — joined across **ChEMBL, ClinicalTrials.gov, Open Targets and PubMed**. Every fact carries its source and retrieval date; gaps are shown honestly instead of hallucinated.
-
-`FastAPI` `PostgreSQL` `Redis` `React 19` `TypeScript`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [📐 Predictive Coding from Scratch](https://github.com/AlsoTheZv3n/PCN-self-improvement-research)
-
-A biologically plausible backprop alternative with **purely local learning rules**, plus a fused **CUDA settling kernel** verified to ~1e-6. Fair PC-vs-BP study with multi-seed confidence intervals — thesis PDF and reproducible figures in the repo.
-
-`PyTorch` `CUDA` `Research` `Statistics`
+`Java 25` `Spring Boot 4` `React 19` `PostgreSQL 18` `Keycloak`
 
 </td>
 <td width="50%" valign="top">
 
-### [🕸️ NEXO Ontology Engine](https://github.com/AlsoTheZv3n/ontology-next)
+### [🏺 Kintsugi — Web Data That Repairs Itself](https://github.com/AlsoTheZv3n/Kintsugi)
 
-Multi-tenant ontology platform: typed objects, entity resolution, lineage, semantic search over pgvector, LLM agent tools, CDC with DLQ, and a GDPR audit/erasure layer. **Flyway V1–V31**, Row-Level Security, AES-256-GCM, Testcontainers.
+Scraper → cleaning → versioned store → API. When a source changes its layout, the extractor is repaired automatically — value anchors, then a DOM diff, then an LLM that only sees the changed subtree and may only edit a schema-validated config. A fix ships only after it passes a gate against known-good pages; otherwise a human gets an incident with the evidence attached.
 
-`Java 21` `Spring Boot` `GraphQL` `pgvector` `RLS`
+`Python` `FastAPI` `Playwright` `PostgreSQL` `LLM`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [🎙️ Local Voice IT Agent](https://github.com/AlsoTheZv3n/Voice-LLM-v1)
+### [🎓 EduSovereign — Intelligent Tutoring System](https://github.com/AlsoTheZv3n/school-learn-agent)
 
-A fully **offline** voice support agent — no cloud API. Microphone → faster-whisper → Qwen2.5-7B (4-bit, tool calling) → Piper TTS → browser, over a FastAPI WebSocket, with pgvector + HNSW retrieval behind it.
+A privacy-first tutoring system for schools, built for minors: a LangGraph teaching agent that explains and quizzes, an inspectable **Bayesian Knowledge Tracing** model per student, and a teacher view to verify and override. Isolation via Row-Level Security, PII anonymised before any LLM call, CH/EU data residency.
 
-`FastAPI` `Qwen2.5` `Whisper` `pgvector`
+`FastAPI` `LangGraph` `pgvector` `React` `TypeScript`
 
 </td>
 <td width="50%" valign="top">
 
-### [🎓 Learner Model — Multi-Agent Tutoring Core](https://github.com/AlsoTheZv3n/multi-angent-longterm-thinking)
+### [🩺 Clinical Dialogue Summarizer](https://github.com/AlsoTheZv3n/llm-training-medical-fine-tuning)
 
-Long-term student memory as a **structured model, not RAG over raw chat logs**: a concept DAG with prerequisites, Bayesian Knowledge Tracing for mastery, and an Ebbinghaus forgetting curve driving spaced repetition. A few bytes per competency — queryable and auditable — shared as the source of truth across every agent.
+QLoRA fine-tune of **Qwen2.5-3B-Instruct** that turns doctor–patient dialogues into structured complaint summaries for the physician, served through Ollama's OpenAI-compatible API. The whole pipeline — data, training, serving, eval — runs on a single consumer GPU, so patient dialogues never leave the machine.
 
-`FastAPI` `Multi-Agent` `BKT` `Domain Modeling`
+`PyTorch` `QLoRA` `Hugging Face` `Ollama`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🧾 TaxFlow — AI-Assisted Swiss Tax Return](https://github.com/AlsoTheZv3n/TaxFlow)
+
+Prototype for the tax return of the canton of Aargau: uploaded documents run through a hybrid OCR pipeline — PdfPig → Tesseract → **Claude Vision** — and the extracted values land directly in a faithful replica of the official form. A rule-based advisor suggests optimisations.
+
+`C#` `ASP.NET Core` `Claude Vision` `OCR`
+
+</td>
+<td width="50%" valign="top">
+
+### [📈 Source-Verified Valuation Models](https://github.com/AlsoTheZv3n/finance-models-v1)
+
+Valuation models and research theses for twelve listed companies. Every figure is read at runtime from the official filing and checked twice — not a single actual value is typed by hand. Shared mechanics are separated from per-company judgement, and each workbook and PDF is rebuilt from scripts.
+
+`Python` `XBRL` `Valuation` `Reproducible Research`
 
 </td>
 </tr>
 </table>
-
 ---
 
 ## 🌍 Open Source Contributions
@@ -130,13 +131,16 @@ Fixes and features shipped into projects I don't own:
 
 <div align="center">
 
-### Languages
+### Languages — Proficient
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Java](https://img.shields.io/badge/Java_25-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+### Languages — Intermediate
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white)
@@ -195,12 +199,20 @@ Fixes and features shipped into projects I don't own:
 
 <div align="center">
 
-![AI-103](https://img.shields.io/badge/AI--103-Azure_AI_Apps_%26_Agents_Developer_Associate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+### Microsoft Certified — Associate
+![AI-103](https://img.shields.io/badge/AI--103-Azure_AI_Apps_%26_Agents_Developer-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AI-300](https://img.shields.io/badge/AI--300-Machine_Learning_Operations_Engineer-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![DP-600](https://img.shields.io/badge/DP--600-Fabric_Analytics_Engineer-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+
+### Microsoft Certified — Fundamentals
 ![AI-900](https://img.shields.io/badge/AI--900-Azure_AI_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AZ-900](https://img.shields.io/badge/AZ--900-Azure_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-</div>
+### NinjaOne
+![NinjaOne Automation Specialist](https://img.shields.io/badge/NinjaOne-Certified_Automation_Specialist-1F2937?style=for-the-badge)
+![NinjaOne Technician](https://img.shields.io/badge/NinjaOne-Certified_Technician_%28MSP%29-1F2937?style=for-the-badge)
 
+</div>
 ---
 
 ## 📊 GitHub Analytics
@@ -212,7 +224,11 @@ Fixes and features shipped into projects I don't own:
 <br/><br/>
 
 <a href="https://github.com/AlsoTheZv3n">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlsoTheZv3n&theme=github-compact&hide_border=true&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=1F6FEB&area=true&area_color=1F6FEB" alt="Activity Graph" width="98%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlsoTheZv3n/AlsoTheZv3n/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlsoTheZv3n/AlsoTheZv3n/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/AlsoTheZv3n/AlsoTheZv3n/output/github-contribution-grid-snake-dark.svg" alt="Contribution graph" width="98%" />
+  </picture>
 </a>
 
 </div>
@@ -221,11 +237,11 @@ Fixes and features shipped into projects I don't own:
 
 <div align="center">
 
-*Always up for a conversation about AI systems, low-level ML, or open-source collaboration.*
+*Always up for a conversation about AI systems, automation, or open-source collaboration.*
 
 <br/>
 
-<a href="mailto:sweidenmann@gmail.com">sweidenmann@gmail.com</a> · <a href="https://www.kaggle.com/svenweidenmann">Kaggle</a>
+<a href="mailto:sweidenmann@gmail.com">sweidenmann@gmail.com</a> · <a href="https://www.linkedin.com/in/sven-weidenmann-260a16235/">LinkedIn</a> · <a href="https://huggingface.co/Zv3n">Hugging Face</a> · <a href="https://www.kaggle.com/svenweidenmann">Kaggle</a>
 
 <br/><br/>
 

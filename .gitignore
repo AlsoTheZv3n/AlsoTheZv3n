@@ -1,0 +1,2 @@
+# Private application documents (CV, references, certificates) — never commit
+*.pdf
